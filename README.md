@@ -122,19 +122,3 @@ npm run build
 
 请确认浏览器允许扩展写入剪贴板（`manifest` 中已声明 `clipboardWrite`）。
 
-## 后续增强建议
-
-- 分类重命名与拖拽排序
-- 提示词 JSON 导入/导出
-- 常用模板与一键变量填充
-- 云同步（可选）
-
-## 上架与开源准备（已提供）
-
-- `LICENSE`（MIT）
-- `PRIVACY.md`（隐私政策）
-- `CHANGELOG.md`（版本变更）
-- `CONTRIBUTING.md`（贡献指南）
-- `SECURITY.md`（安全报告）
-- `EDGE_STORE_CHECKLIST.md`（Edge 上架清单）
-- `scripts/package-edge.ps1`（一键打包）
