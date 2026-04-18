@@ -1,0 +1,10 @@
+/ai-prompt-manager
+/dist
+/dist.zip
+/EDGE_STORE_CHECKLIST.md
+/EDGE_STORE_LISTING.md
+/manifest.json
+/node_modules
+/postcss.config.js
+/release
+/tailwind.config.js
