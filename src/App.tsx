@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { Copy, Plus, Save, Search, Trash2, X } from 'lucide-react';
 import { db, Prompt } from './db';
 
-const LOCAL_CATEGORIES_KEY = 'promothero:categories';
+const LOCAL_CATEGORIES_KEY = 'promptmanager:categories';
 
 type ToastInfo = {
   kind: 'success' | 'error';
