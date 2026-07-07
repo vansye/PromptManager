@@ -1,12 +1,16 @@
 # PromptManager 浏览器扩展
 
-PromptManager 是一个可直接加载到浏览器中的提示词管理扩展，支持分类、检索、编辑和复制，核心数据保存在本地 IndexedDB。
+PromptManager 是一个提示词管理扩展，支持分类、检索、编辑和复制，核心数据保存在本地 IndexedDB。已正式上架 **Edge 扩展商店**，也支持手动加载至 Chrome / Edge。
 
-## 你最关心的：以后怎么用
+[![Edge Addons](https://img.shields.io/badge/Edge%20Addons-获取扩展-0078d7?logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/promptmanager/ehehpclbknnngaadilnpghdagmbgoadb)
 
-日常使用不需要启动命令行。
+## 快速安装（推荐）
 
-只需要首次或更新代码后构建一次，然后把 `dist` 目录作为“已解压扩展”加载到浏览器即可。
+如果你使用 **Edge 浏览器**，直接点击上方徽章或下方链接一键安装，后续无需任何操作：
+
+[PromptManager - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/promptmanager/ehehpclbknnngaadilnpghdagmbgoadb)
+
+安装后点击浏览器工具栏的扩展图标即可打开侧边栏使用。
 
 ## 功能特性
 
@@ -36,7 +40,7 @@ src/
   index.css              # 扩展 UI 样式
 ```
 
-## 构建并加载为浏览器扩展
+## 自行构建（Chrome 使用 / 开发调试）
 
 ### 1) 安装依赖
 

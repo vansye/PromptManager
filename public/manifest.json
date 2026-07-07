@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PromptManager",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "提示词收集、分类和快速复用扩展。",
   "action": {
     "default_title": "PromptManager"
@@ -13,6 +13,9 @@
     "default_path": "index.html"
   },
   "permissions": ["storage", "clipboardWrite", "sidePanel"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'self';"
+  },
   "commands": {
     "_execute_action": {
       "suggested_key": {
